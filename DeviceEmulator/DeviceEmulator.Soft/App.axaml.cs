@@ -1,4 +1,5 @@
-﻿using Avalonia;
+﻿using System.Net.Mime;
+using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
@@ -7,7 +8,7 @@ using DeviceEmulator.Soft.Views;
 
 namespace DeviceEmulator.Soft;
 
-public partial class App : Application
+public partial class App : MediaTypeNames.Application
 {
     public override void Initialize()
     {

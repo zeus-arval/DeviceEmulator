@@ -1,22 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.UI", "DeviceEmulator.Soft\DeviceEmulator.UI.csproj", "{ADA50656-056B-1F40-8D5A-695671A112FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.BusinessLogicLayer", "DeviceEmulator.BusinessLogicLayer\DeviceEmulator.BusinessLogicLayer.csproj", "{2A1B02F6-0CA3-469B-BA6B-67DD3E374345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.App", "DeviceEmulator.Soft.Desktop\DeviceEmulator.App.csproj", "{D650F993-86B2-9DD3-775B-E3F62BEC5CDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.ApplicationLayer", "DeviceEmulator.AL\DeviceEmulator.ApplicationLayer.csproj", "{EE0E0531-D14A-4FAF-A344-240A6E95084A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.BLL", "DeviceEmulator.BusinessLogicLayer\DeviceEmulator.BLL.csproj", "{2A1B02F6-0CA3-469B-BA6B-67DD3E374345}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.AL", "DeviceEmulator.AL\DeviceEmulator.AL.csproj", "{EE0E0531-D14A-4FAF-A344-240A6E95084A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.DAL", "DeviceEmulator.DAL\DeviceEmulator.DAL.csproj", "{E612F637-D1FB-431F-8212-E2A186A080FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.DataAccessLayer", "DeviceEmulator.DAL\DeviceEmulator.DataAccessLayer.csproj", "{E612F637-D1FB-431F-8212-E2A186A080FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceEmulator.UserInterface", "DeviceEmulator.UI\DeviceEmulator.UserInterface.csproj", "{0727F90D-0540-448B-BC1C-D36938648067}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADA50656-056B-1F40-8D5A-695671A112FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADA50656-056B-1F40-8D5A-695671A112FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADA50656-056B-1F40-8D5A-695671A112FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADA50656-056B-1F40-8D5A-695671A112FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D650F993-86B2-9DD3-775B-E3F62BEC5CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D650F993-86B2-9DD3-775B-E3F62BEC5CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D650F993-86B2-9DD3-775B-E3F62BEC5CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D650F993-86B2-9DD3-775B-E3F62BEC5CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2A1B02F6-0CA3-469B-BA6B-67DD3E374345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2A1B02F6-0CA3-469B-BA6B-67DD3E374345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A1B02F6-0CA3-469B-BA6B-67DD3E374345}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,6 +34,10 @@ Global
 		{E612F637-D1FB-431F-8212-E2A186A080FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E612F637-D1FB-431F-8212-E2A186A080FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E612F637-D1FB-431F-8212-E2A186A080FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0727F90D-0540-448B-BC1C-D36938648067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0727F90D-0540-448B-BC1C-D36938648067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0727F90D-0540-448B-BC1C-D36938648067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0727F90D-0540-448B-BC1C-D36938648067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
